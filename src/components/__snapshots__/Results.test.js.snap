@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results tests Snapshot matches 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Results
+    state={
+      Object {
+        "clicks": 0,
+        "result": 0,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h2
+          id="first"
+        >
+          Number of clicks: 
+          0
+        </h2>,
+        <h2
+          id="second"
+        >
+          ----------------------
+        </h2>,
+        <h2
+          id="third"
+        >
+          Result: 
+          0
+        </h2>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Number of clicks: ",
+            0,
+          ],
+          "id": "first",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Number of clicks: ",
+          0,
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "----------------------",
+          "id": "second",
+        },
+        "ref": null,
+        "rendered": "----------------------",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Result: ",
+            0,
+          ],
+          "id": "third",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Result: ",
+          0,
+        ],
+        "type": "h2",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h2
+            id="first"
+          >
+            Number of clicks: 
+            0
+          </h2>,
+          <h2
+            id="second"
+          >
+            ----------------------
+          </h2>,
+          <h2
+            id="third"
+          >
+            Result: 
+            0
+          </h2>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Number of clicks: ",
+              0,
+            ],
+            "id": "first",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Number of clicks: ",
+            0,
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "----------------------",
+            "id": "second",
+          },
+          "ref": null,
+          "rendered": "----------------------",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Result: ",
+              0,
+            ],
+            "id": "third",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Result: ",
+            0,
+          ],
+          "type": "h2",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
